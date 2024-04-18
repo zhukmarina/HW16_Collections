@@ -13,6 +13,10 @@
 		0513474B2BCDAEB6005A772F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0513474A2BCDAEB6005A772F /* Base */; };
 		0513474D2BCDAEB8005A772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0513474C2BCDAEB8005A772F /* Assets.xcassets */; };
 		051347502BCDAEB8005A772F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0513474F2BCDAEB8005A772F /* Base */; };
+		051347582BD01FBF005A772F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051347572BD01FBF005A772F /* CollectionViewCell.swift */; };
+		0513475C2BD05AFE005A772F /* mainFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0513475B2BD05AFE005A772F /* mainFlowViewController.swift */; };
+		0513475E2BD05B50005A772F /* mainFlowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0513475D2BD05B50005A772F /* mainFlowCollectionViewCell.swift */; };
+		051347602BD090A8005A772F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0513475F2BD090A8005A772F /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0513474C2BCDAEB8005A772F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0513474F2BCDAEB8005A772F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		051347512BCDAEB8005A772F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051347572BD01FBF005A772F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		0513475B2BD05AFE005A772F /* mainFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainFlowViewController.swift; sourceTree = "<group>"; };
+		0513475D2BD05B50005A772F /* mainFlowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainFlowCollectionViewCell.swift; sourceTree = "<group>"; };
+		0513475F2BD090A8005A772F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,41 @@
 			children = (
 				051347432BCDAEB6005A772F /* AppDelegate.swift */,
 				051347452BCDAEB6005A772F /* SceneDelegate.swift */,
-				051347472BCDAEB6005A772F /* ViewController.swift */,
+				0580BC712BD090D900298A9B /* Details */,
+				0513475A2BD05AC5005A772F /* mainFlow */,
+				051347592BD05A61005A772F /* Onboarding */,
 				051347492BCDAEB6005A772F /* Main.storyboard */,
 				0513474C2BCDAEB8005A772F /* Assets.xcassets */,
 				0513474E2BCDAEB8005A772F /* LaunchScreen.storyboard */,
 				051347512BCDAEB8005A772F /* Info.plist */,
 			);
 			path = hw16_Collections;
+			sourceTree = "<group>";
+		};
+		051347592BD05A61005A772F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				051347472BCDAEB6005A772F /* ViewController.swift */,
+				051347572BD01FBF005A772F /* CollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0513475A2BD05AC5005A772F /* mainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0513475B2BD05AFE005A772F /* mainFlowViewController.swift */,
+				0513475D2BD05B50005A772F /* mainFlowCollectionViewCell.swift */,
+			);
+			path = mainFlow;
+			sourceTree = "<group>";
+		};
+		0580BC712BD090D900298A9B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				0513475F2BD090A8005A772F /* DetailsViewController.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +176,10 @@
 			files = (
 				051347482BCDAEB6005A772F /* ViewController.swift in Sources */,
 				051347442BCDAEB6005A772F /* AppDelegate.swift in Sources */,
+				051347602BD090A8005A772F /* DetailsViewController.swift in Sources */,
+				051347582BD01FBF005A772F /* CollectionViewCell.swift in Sources */,
+				0513475C2BD05AFE005A772F /* mainFlowViewController.swift in Sources */,
+				0513475E2BD05B50005A772F /* mainFlowCollectionViewCell.swift in Sources */,
 				051347462BCDAEB6005A772F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
